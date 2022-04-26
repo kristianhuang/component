@@ -49,10 +49,20 @@ func (m *RWMap) Len() int {
 func (m *RWMap) Each(callback func(key string, val interface{}) bool) {
 	m.mu.Lock()
 	defer m.mu.Unlock()
-
 	for k, v := range m.m {
 		if !callback(k, v) {
 			return
 		}
 	}
+}
+
+func (m *RWMap) Map() map[string]interface{} {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	nm := make(map[string]interface{})
+	for k, v := range m.m {
+		nm[k] = v
+	}
+
+	return nm
 }

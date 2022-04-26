@@ -14,10 +14,18 @@ type RecursiveMutex struct {
 	recursion int32 // Amount goroutine reentries with lock
 }
 
+func NewRecursiveMutex() *RecursiveMutex {
+	return &RecursiveMutex{}
+}
+
 type TokenRecursiveMutex struct {
 	sync.Mutex
 	token     int64 // Token of the lock currently held
 	recursion int32 // Amount goroutine reentries with lock
+}
+
+func NewTokenRecursiveMutex(token int64) *TokenRecursiveMutex {
+	return &TokenRecursiveMutex{token: token}
 }
 
 func (m *RecursiveMutex) Lock() {
