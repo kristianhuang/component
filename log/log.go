@@ -12,7 +12,7 @@ import (
 	"log"
 	"sync"
 
-	"go-component/log/klog"
+	"github.com/kristianhuang/go-cmp/log/klog"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

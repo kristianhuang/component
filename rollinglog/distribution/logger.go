@@ -12,7 +12,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.uber.org/zap"
 
-	logruslogger "go-component/rollinglog/logrus"
+	logruslogger "github.com/kristianhuang/go-cmp/rollinglog/logrus"
 )
 
 type Logger struct {

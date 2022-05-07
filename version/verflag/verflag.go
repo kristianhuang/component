@@ -11,7 +11,7 @@ import (
 	"os"
 	"strconv"
 
-	"go-component/version"
+	"github.com/kristianhuang/go-cmp/version"
 
 	flag "github.com/spf13/pflag"
 )

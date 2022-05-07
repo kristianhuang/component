@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"log"
 
-	"go-component/validator"
+	"github.com/kristianhuang/go-cmp/validator"
 
 	go_validator "github.com/go-playground/validator/v10"
 )

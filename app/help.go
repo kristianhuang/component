@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	cliflag "go-component/flag"
-	"go-component/util/terminal"
+	cliflag "github.com/kristianhuang/go-cmp/flag"
+	"github.com/kristianhuang/go-cmp/util/terminal"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

@@ -9,7 +9,7 @@ package flag
 import (
 	goflag "flag"
 
-	log "go-component/rollinglog"
+	log "github.com/kristianhuang/go-cmp/rollinglog"
 
 	"github.com/spf13/pflag"
 )

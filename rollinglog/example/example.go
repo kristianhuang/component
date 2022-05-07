@@ -7,7 +7,7 @@
 package main
 
 import (
-	"go-component/rollinglog"
+	"github.com/kristianhuang/go-cmp/rollinglog"
 )
 
 func main() {

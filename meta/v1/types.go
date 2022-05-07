@@ -7,7 +7,7 @@
 package v1
 
 import (
-	"go-component/json"
+	"github.com/kristianhuang/go-cmp/json"
 
 	"gorm.io/gorm"
 	"gorm.io/plugin/soft_delete"

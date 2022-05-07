@@ -1,1 +1,1 @@
-# go-component
+# github.com/kristianhuang/go-cmp
