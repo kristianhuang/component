@@ -1,4 +1,4 @@
-module go-component
+module github.com/kristianhuang/go-cmp
 
 go 1.18
 
@@ -19,7 +19,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/sony/sonyflake v1.0.0
 	github.com/spaolacci/murmur3 v1.1.0
-	github.com/speps/go-hashids/v2 v2.0.1
+	github.com/speps/go-hashids v2.0.0+incompatible
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.10.1

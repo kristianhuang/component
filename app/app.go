@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"os"
 
-	"go-component/errors"
-	cliflag "go-component/flag"
-	log "go-component/rollinglog"
-	"go-component/version/verflag"
+	"github.com/kristianhuang/go-cmp/errors"
+	cliflag "github.com/kristianhuang/go-cmp/flag"
+	log "github.com/kristianhuang/go-cmp/rollinglog"
+	"github.com/kristianhuang/go-cmp/version/verflag"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

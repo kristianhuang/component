@@ -15,7 +15,7 @@ import "encoding/json"
 type RawMessage = json.RawMessage
 
 var (
-	// Marshal is exported by go-component/json package.
+	// Marshal is exported by github.com/kristianhuang/go-cmp/json package.
 	Marshal = json.Marshal
 	// Unmarshal is exported by blog-app/pkg/json package.
 	Unmarshal = json.Unmarshal

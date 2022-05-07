@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-component/json"
+	"github.com/kristianhuang/go-cmp/json"
 )
 
 // formatInfo contains all the error information.

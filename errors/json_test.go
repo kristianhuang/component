@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"testing"
 
-	"go-component/json"
+	"github.com/kristianhuang/go-cmp/json"
 )
 
 func TestFrameMarshalText(t *testing.T) {

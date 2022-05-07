@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"go-component/shutdown"
+	"github.com/kristianhuang/go-cmp/shutdown"
 )
 
 type startShutdownFunc func(sm shutdown.ShutdownManager)

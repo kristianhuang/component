@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-component/util/path/dir"
+	"github.com/kristianhuang/go-cmp/util/path/dir"
 
 	"github.com/gosuri/uitable"
 	"github.com/spf13/cobra"

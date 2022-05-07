@@ -6,7 +6,7 @@
 
 package app
 
-import "go-component/flag"
+import "github.com/kristianhuang/go-cmp/flag"
 
 type CliOptions interface {
 	Flags() (fss flag.NamedFlagSets)

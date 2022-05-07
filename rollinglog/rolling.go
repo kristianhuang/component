@@ -9,7 +9,7 @@ package rollinglog
 import (
 	"os"
 
-	"go-component/rollinglog/rolling"
+	"github.com/kristianhuang/go-cmp/rollinglog/rolling"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

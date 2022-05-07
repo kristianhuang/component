@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"go-component/shutdown"
+	"github.com/kristianhuang/go-cmp/shutdown"
 )
 
 const Name = "PosixSignalManager"

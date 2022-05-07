@@ -9,7 +9,7 @@ package main
 import (
 	"flag"
 
-	"go-component/log"
+	"github.com/kristianhuang/go-cmp/log"
 )
 
 var (

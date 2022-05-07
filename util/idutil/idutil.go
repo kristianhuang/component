@@ -9,11 +9,12 @@ package idutil
 import (
 	"crypto/rand"
 
-	"go-component/util/iputil"
-	"go-component/util/stringutil"
+	hashids "github.com/speps/go-hashids"
+
+	"github.com/kristianhuang/go-cmp/util/iputil"
+	"github.com/kristianhuang/go-cmp/util/stringutil"
 
 	"github.com/sony/sonyflake"
-	"github.com/speps/go-hashids/v2"
 )
 
 const (

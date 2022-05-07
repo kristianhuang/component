@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-component/json"
+	"github.com/kristianhuang/go-cmp/json"
 
 	"github.com/spf13/pflag"
 	"go.uber.org/zap"

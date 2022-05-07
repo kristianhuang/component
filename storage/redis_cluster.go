@@ -15,8 +15,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-component/errors"
-	log "go-component/rollinglog"
+	"github.com/kristianhuang/go-cmp/errors"
+	log "github.com/kristianhuang/go-cmp/rollinglog"
 
 	"github.com/go-redis/redis/v7"
 	uuid "github.com/satori/go.uuid"
