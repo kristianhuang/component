@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Kristian Huang <krishuang007@gmail.com>. All rights reserved.
+ * Copyright 2021 Kris Huang <krishuang007@gmail.com>. All rights reserved.
  * Use of this source code is governed by a MIT style
  * license that can be found in the LICENSE file.
  */
@@ -9,10 +9,10 @@ package idutil
 import (
 	"crypto/rand"
 
-	hashids "github.com/speps/go-hashids"
+	"github.com/speps/go-hashids"
 
-	"github.com/kristianhuang/go-cmp/util/iputil"
-	"github.com/kristianhuang/go-cmp/util/stringutil"
+	"github.com/kristianhuang/go-component/util/iputil"
+	"github.com/kristianhuang/go-component/util/stringutil"
 
 	"github.com/sony/sonyflake"
 )

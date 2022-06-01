@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Kristian Huang <krishuang007@gmail.com>. All rights reserved.
+ * Copyright 2021 Kris Huang <krishuang007@gmail.com>. All rights reserved.
  * Use of this source code is governed by a MIT style
  * license that can be found in the LICENSE file.
  */
@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kristianhuang/go-cmp/errors"
-	cliflag "github.com/kristianhuang/go-cmp/flag"
-	log "github.com/kristianhuang/go-cmp/rollinglog"
-	"github.com/kristianhuang/go-cmp/version/verflag"
+	"github.com/kristianhuang/go-component/errors"
+	cliflag "github.com/kristianhuang/go-component/flag"
+	log "github.com/kristianhuang/go-component/rollinglog"
+	"github.com/kristianhuang/go-component/version/verflag"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
