@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Kristian Huang <krishuang007@gmail.com>. All rights reserved.
+ * Copyright 2021 Kris Huang <krishuang007@gmail.com>. All rights reserved.
  * Use of this source code is governed by a MIT style
  * license that can be found in the LICENSE file.
  */
@@ -9,7 +9,7 @@ package flag
 import (
 	goflag "flag"
 
-	log "github.com/kristianhuang/go-cmp/rollinglog"
+	log "github.com/kristianhuang/go-component/rollinglog"
 
 	"github.com/spf13/pflag"
 )

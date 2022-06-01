@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Kristian Huang <krishuang007@gmail.com>. All rights reserved.
+ * Copyright 2021 Kris Huang <krishuang007@gmail.com>. All rights reserved.
  * Use of this source code is governed by a MIT style
  * license that can be found in the LICENSE file.
  */
@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	cliflag "github.com/kristianhuang/go-cmp/flag"
-	"github.com/kristianhuang/go-cmp/util/terminal"
+	cliflag "github.com/kristianhuang/go-component/flag"
+	"github.com/kristianhuang/go-component/util/terminal"
 
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"

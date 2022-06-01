@@ -2,7 +2,7 @@
 // +build !jsoniter
 
 /*
- * Copyright 2021 Kristian Huang <kristianhuang@gmail.com>. All rights reserved.
+ * Copyright 2021 Kris Huang <krishuang007@gmail.com>. All rights reserved.
  * Use of this source code is governed by a MIT style
  * license that can be found in the LICENSE file.
  */
@@ -15,7 +15,7 @@ import "encoding/json"
 type RawMessage = json.RawMessage
 
 var (
-	// Marshal is exported by github.com/kristianhuang/go-cmp/json package.
+	// Marshal is exported by github.com/kristianhuang/go-component/json package.
 	Marshal = json.Marshal
 	// Unmarshal is exported by blog-app/pkg/json package.
 	Unmarshal = json.Unmarshal
